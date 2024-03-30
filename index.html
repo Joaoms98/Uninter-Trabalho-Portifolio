@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script type="text/javascript" src="scripts.js"></script>
+    <title>Portifólio João Victor Menezes De Souza</title>
+</head>
+
+
+<!-- cabeçalho -->
+<header>
+	<nav>
+		<div id="logo">
+			João <br> Victor
+			<svg width="100" height="50" viewBox="4 -3 55 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" fill="#45413E"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" fill="#45413E"/>
+			</svg>
+		</div>
+		<ul class="navigation-menu">
+			<li><a href="#">Resumo</a></li>
+			<li><a href="#about">Sobre</a></li>
+			<li><a href="#career">Carreira</a></li>
+			<li><a href="#contact">Contato</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!-- Resumo -->
+<section class="hero">
+	<h1>Olá, sou o  João Victor! <br> desenvolvedor full stack</h1>
+	<div class="btn-group">
+		<a href="https://github.com/Joaoms98" target="_blank"><button class="btn-filled-dark"> Github</button></a>
+		<a href="https://www.linkedin.com/in/joaovictormenezesdesouza/" target="_blank"><button class="btn-filled-dark"> Linkedin</button></a>
+	</div>
+</section>
+
+<!-- Sobre -->
+<section id="about">
+	<h2>Um pouco sobre mim</h2>
+
+	<ul class="shop-pets">
+		<li class="card-large card-light" id="sup-dog">
+			<div class="card-image"><img src="./assets/consola-de-jogos.png"></div>
+			<ul>
+				Games que gosto
+				<li><a href="#">Mount &amp; Blade</a></li>
+				<li><a href="#">Orc's Massage</a></li>
+				<li><a href="#">League of Legends</a></li>
+			</ul>
+		</li>
+
+		<li class="card-large card-dark" id="sup-cat">
+			<div class="card-image"><img src="./assets/fone-de-ouvido.png"></div>
+			<ul>
+				Música preferidas
+				<li><a href="#">Frank Zappa - Inca Roads</a></li>
+				<li><a href="#">Nina Simone - Zungo</a></li>
+				<li><a href="#">Joe Mafela - Shebeleza</a></li>
+			</ul>
+		</li>
+
+		<li class="card-large card-dark" id="sup-bird">
+			<div class="card-image"><img src="./assets/mundo.png"></div>
+			<ul>
+				Futuras viagens
+				<li><a href="#">Paris - França</a></li>
+				<li><a href="#">Antananarivo - Madagascar</a></li>
+				<li><a href="#">Jerusalém - Palestina</a></li>
+			</ul>
+		</li>
+
+		<li class="card-large card-light" id="sup-fish">
+			<div class="card-image"><img src="./assets/assistindo-um-filme.png"></div>
+			<ul>
+				Séries Preferidas
+				<li><a href="#">The Office</a></li>
+				<li><a href="#">Breaking Bad</a></li>
+				<li><a href="#">Os 10 mandamentos</a></li>
+			</ul>
+		</li>
+	</ul>
+</section>
+
+<!-- Carreira -->
+<section id="career">
+	<h2>Carreira</h2>
+
+	<ul class="services">
+		<li class="card-large card-dark card-wide" id="serv-groom">
+			<div class="card-image"><img src="./assets/experiencia-de-trabalho.png"></div>
+			<ul>
+				Experiência
+				<span class="subtitle">
+					Sou um desenvolvedor da área de tecnologia a mais de 4 anos e busco sempre 
+					aprimorar o ambiente onde estou, este meu traço inquieto e colaborativo, 
+					me torna uma excelente peça para inovações. Trabalhei em um time ágil onde tive a o
+					portunidade de participar de projetos de desenvolvimento de software, onde adquiri 
+					experiência desde a fase de testes até fluxos de implantação em produção e suporte ao 
+					cliente, com o uso da clean architecture, processos de refatoração e pirâmides unitários.
+				</span>
+				<a href="https://www.budlight.com/" target="_blank">
+					<button class="btn-filled-dark">Último Trabalho</button>
+				</a>
+			</ul>
+
+		</li>
+		<li class="card-large card-dark card-wide" id="serv-board">
+			<div class="card-image"><img src="./assets/programacao.png"></div>
+			<ul>
+				Formação
+				<span class="subtitle">
+				    <h3>Uninter</h6>
+					<h5> Análise e desenvolvimento de sistemas </h5><br>
+					O curso proporcionou uma base sólida para o desenvolvimento de soluções tecnológicas eficientes e inovadoras, preparando-me para diversos desafios na área de Tecnologia da Informação.
+					<br><br>
+				    <h3>Generation Brasil</h6>
+					<h5> Desenvolvedora .NET </h5><br>
+					Bootcamp 100% remoto com foco na formação e colocação de jovens no mercado de TI, trabalhando soft e hard skills lado a lado na formação de profissionais 
+				</span>
+			</ul>
+		</li>
+	</ul>
+</section>
+
+<!-- Contato -->
+<section id="contact">
+	<div>
+		<h2>Entre em contato</h2>
+		<div class="btn-group">
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" required>
+			<label for="email">E-mail:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="mensagem">Mensagem:</label>
+			<textarea id="mensagem" name="mensagem" required></textarea>
+			<input type="submit" value="Enviar">
+		</div>
+	</div>
+</section>
+
+<footer>
+</footer>
+
